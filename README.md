@@ -1,24 +1,57 @@
-# evandromqs
+# EvandroMqs — Portfólio Pessoal (React + Vite)
 
-Portfólio pessoal de EvandroMqs.
+Portfólio oficial de Evandro Mqs desenvolvido com **React 18**, **TypeScript**, **Vite** e estética **Cyber/Neon Dark**.
 
-## Visão geral
-Este repositório contém o site estático do meu portfólio. O arquivo principal é `index.html` (pronto para publicação em Vercel Pages).
+---
 
-## Como visualizar localmente
-- Abrir `index.html` diretamente no navegador, ou
-- Rodar um servidor local rápido:
-  - Python 3: `python -m http.server 8000` e visitar `http://localhost:8000`
+## ⚡ Tecnologias
 
-## Deploy no Vercel
-1. Acesse https://vercel.com e conecte sua conta ao GitHub.
+- **Framework:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Bundler / Dev Server:** [Vite](https://vitejs.dev/)
+- **Estilos:** Vanilla CSS com Design Tokens modernos e Variáveis Dark/Neon
+- **Ícones:** [Lucide React](https://lucide.dev/) + SVG inline
+- **Hospedagem:** [Vercel](https://vercel.com/) (Deploy automatizado com `vercel.json`)
+
+---
+
+## 🚀 Como Executar Localmente
+
+1. **Instalar as dependências:**
+   ```bash
+   npm install
+   ```
+
+2. **Iniciar o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+   Acesse a URL indicada (normalmente `http://localhost:5173`).
+
+3. **Gerar build de produção:**
+   ```bash
+   npm run build
+   ```
+
+4. **Visualizar o build localmente:**
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## 🌐 Deploy na Vercel
+
+1. Conecte sua conta do GitHub à [Vercel](https://vercel.com).
 2. Importe o repositório `EvandroMarquesPF/evandromqs`.
-3. Selecione a branch `main`. Não é necessário build command — o Vercel serve `index.html` automaticamente.
-4. Deploy será criado; depois você pode adicionar um domínio customizado em Settings → Domains.
+3. A Vercel detectará automaticamente a configuração do Vite e o arquivo `vercel.json`:
+   - **Framework Preset:** Vite
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
 
-## Observações
-- O site usa fontes externas (Google Fonts) e favicon em data URI.
-- Se houver imagens referenciadas por caminhos relativos, confirme que estão no repositório.
+---
 
-## Contato
-- Autor: Evandro Mqs
+## 👨‍💻 Autor
+
+- **Evandro Mqs**
+- **GitHub:** [@EvandroMarquesPF](https://github.com/EvandroMarquesPF)
+- **Blog:** [evandromqs.blogspot.com](https://evandromqs.blogspot.com)
